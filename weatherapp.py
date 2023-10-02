@@ -25,7 +25,6 @@ location_entry.place(relx=0.5, rely=0.25, anchor=CENTER)
 
 # Button to get weather
 
-
 def get_weather_callback():
     location_name = location_entry.get()
     get_weather(location_name)
